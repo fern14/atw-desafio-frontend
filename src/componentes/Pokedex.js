@@ -26,6 +26,7 @@ const Pokedex = (props) => {
                     onRightClick={nextPage}
                 />
             </div>
+            {}
             <div className="pokedex-grid">
                 {pokemons.map((pokemon, idx) => {
                     return (
